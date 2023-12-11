@@ -1,0 +1,16 @@
+.App {
+  width: 30%;
+  height: 25%;
+  margin: 25% auto;
+}
+/*.App > div {
+  padding: 15px 20px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+.App > p {
+  text-align: center;
+}*/
+a {
+  color: #87ceeb;
+}
