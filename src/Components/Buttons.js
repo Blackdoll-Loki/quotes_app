@@ -7,19 +7,14 @@ class Buttons extends React.Component {
       <div className="buttons">
         <div className="socials">
           <a
-            href="https://twitter.com/intent/tweet"
+            href={`https://twitter.com/intent/tweet?text=${this.props.data.quote}-${this.props.data.author}`}
             id="tweet-quote"
             className="twitter"
             target={"_blank"}
-          ></a>
-          <a
-            a
-            href="https://www.facebook.com/sharer/sharer.php?u=example.org"
-            target="_blank"
-            className="facebook"
+            rel={"noreferrer"}
           ></a>
         </div>
-        <button id="new-quote" className="next-qoute">
+        <button id="new-quote" className="next-qoute" onClick={this.props.callback}>
           Next
         </button>
       </div>

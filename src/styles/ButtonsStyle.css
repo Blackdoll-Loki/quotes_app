@@ -8,19 +8,14 @@
   justify-content: center;
   column-gap: 20px;
 }
-.twitter,
-.facebook {
+.twitter{
   width: 45px;
   height: 45px;
   background-size: contain;
   background-repeat: no-repeat;
-}
-.twitter {
   background-image: url("./icons/twitter.svg");
 }
-.facebook {
-  background-image: url("./icons/facebook.svg");
-}
+
 .next-qoute {
   background-color: transparent;
   border: 1px solid black;
