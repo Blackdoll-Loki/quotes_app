@@ -9,10 +9,9 @@ class Buttons extends React.Component {
           <a
             href={`https://twitter.com/intent/tweet?text=${this.props.data.quote}-${this.props.data.author}`}
             id="tweet-quote"
-            className="twitter"
             target={"_blank"}
             rel={"noreferrer"}
-          ></a>
+          ><div className="twitter"></div></a>
         </div>
         <button id="new-quote" className="next-qoute" onClick={this.props.callback}>
           Next
