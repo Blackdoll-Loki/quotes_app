@@ -1,8 +1,28 @@
 .buttons {
   display: flex;
-  justify-content: space-evenly;
+  padding: 15px 25px;
+  justify-content: space-between;
 }
 .socials {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 20px;
+}
+.twitter,
+.facebook {
+  width: 45px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.twitter {
+  background-image: url("./icons/twitter.svg");
+}
+.facebook {
+  background-image: url("./icons/facebook.svg");
+}
+.next-qoute {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
 }

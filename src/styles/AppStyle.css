@@ -3,14 +3,15 @@
   height: 25%;
   margin: 25% auto;
 }
-/*.App > div {
+.App > div {
   padding: 15px 20px;
   border: 1px solid #000000;
   border-radius: 15px;
 }
-.App > p {
+footer > p {
   text-align: center;
-}*/
+}
 a {
   color: #87ceeb;
+  text-decoration: none;
 }

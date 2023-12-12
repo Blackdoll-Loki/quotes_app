@@ -6,10 +6,22 @@ class Buttons extends React.Component {
     return (
       <div className="buttons">
         <div className="socials">
-          <button>twit</button>
-          <button>fb</button>
+          <a
+            href="https://twitter.com/intent/tweet"
+            id="tweet-quote"
+            className="twitter"
+            target={"_blank"}
+          ></a>
+          <a
+            a
+            href="https://www.facebook.com/sharer/sharer.php?u=example.org"
+            target="_blank"
+            className="facebook"
+          ></a>
         </div>
-        <button>Next</button>
+        <button id="new-quote" className="next-qoute">
+          Next
+        </button>
       </div>
     );
   }

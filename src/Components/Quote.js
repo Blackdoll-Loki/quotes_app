@@ -2,10 +2,11 @@ import React from "react";
 
 class Quote extends React.Component {
   render() {
+    console.log(this.props.data.quote)
     return (
       <div className="Qoute">
-        <blockquote>blalbalba</blockquote>
-        <p>-Author</p>
+        <blockquote id="text">{this.props.data.quote}</blockquote>
+        <p id="author">-{this.props.data.author}</p>
       </div>
     );
   }
